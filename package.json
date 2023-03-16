@@ -1,0 +1,11 @@
+{
+  "name": "randommsgs",
+  "version": "1.0.0",
+  "description": "random phrases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "victor areiza",
+  "license": "MIT"
+}
