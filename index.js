@@ -14,8 +14,7 @@ const messages = [
 
 function showTitle() {
   const titleEl = document.querySelector(".title");
-  titleEl.innerHTML =
-    "¡Bienvenido! Haz clic en el botón para ver una cita inspiradora";
+  titleEl.innerHTML = "¡Bienvenido! Haz clic en el botón <br> para ver una cita inspiradora";
 }
 
 function showmsg() {
