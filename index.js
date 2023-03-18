@@ -12,6 +12,9 @@ const messages = [
   "No dejes que el miedo se interponga en tu camino - Babe Ruth",
 ];
 
+const load = document.querySelector(".load");
+load.innerHTML = "CARGANDO........"
+
 function showTitle() {
   const titleEl = document.querySelector(".title");
   titleEl.innerHTML = "¡Bienvenido! Haz clic en el botón <br> para ver una cita inspiradora";
@@ -38,3 +41,11 @@ setTimeout(() => {
 }, 2500);
 
 button.addEventListener("click", showmsg);
+
+function eraseLoad () {
+  load.style.display = "none";
+}
+
+setTimeout(()=> {
+  eraseLoad();
+},2500);

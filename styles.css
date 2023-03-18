@@ -18,13 +18,24 @@ h1 {
     height: 70px;
     box-shadow: 20px 40px 60px rgb(97, 102, 83);
 }
+
 .container {
     margin-top: 200px;
     justify-content: center;
     height: 200px;
 }
-
-
+h2 {
+  box-shadow: 4px 4px 10px 10px black;
+  border-radius: 15px;
+  margin: 0px 300px 30px;
+  display: block;
+  height: 40px;
+  width: fit-content;
+  background-color: rgb(143, 150, 118);
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+}
 #input {
   display: none;
   margin: 20px auto;
