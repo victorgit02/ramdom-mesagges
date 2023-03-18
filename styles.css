@@ -74,8 +74,9 @@ h2 {
     
     #button {
      
-      position: relative;
-      left: 20%;
+      
+      margin-left: -8px;
+      margin-right: 0px;
      
     }
     #input {
